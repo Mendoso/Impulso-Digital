@@ -36,6 +36,23 @@ def create_app(config=None):
     if app.config['PAYMENT_MODE'] not in ('demo', 'live'):
         raise RuntimeError('PAYMENT_MODE deve ser demo ou live')
 
+    # Fresh checkouts do not include the operational database. Prepare its
+    # schema before serving requests, including HEAD probes from the host.
+    database_path = Path(app.config['DATABASE']).expanduser()
+    app.config['DATABASE'] = str(database_path)
+    try:
+        database_path.parent.mkdir(parents=True, exist_ok=True)
+        connection = sqlite3.connect(database_path, timeout=30)
+        try:
+            connection.executescript((ROOT / 'schema.sql').read_text())
+        finally:
+            connection.close()
+    except (OSError, sqlite3.Error) as error:
+        raise RuntimeError(
+            'Não foi possível preparar a base de dados. Verifique DATABASE_PATH '
+            'e as permissões de escrita do diretório configurado.'
+        ) from error
+
     def db():
         if 'db' not in g:
             g.db = sqlite3.connect(app.config['DATABASE'])

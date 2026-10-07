@@ -17,17 +17,17 @@ Plataforma de ensino digital para Moçambique, desenvolvida a partir do document
 
 ## Executar localmente
 
-Requisitos: Python 3.12+ e acesso ao PyPI. Comandos dentro do checkout existente; não é necessário criar um worktree.
+Requisitos: Python 3.12+ e acesso ao PyPI. `.python-version` fixa a versão 3.12.14 validada para o Render. Comandos dentro do checkout existente; não é necessário criar um worktree.
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.lock
 .venv/bin/flask --app app init-db
 .venv/bin/flask --app app seed-demo
-.venv/bin/flask --app app run --host 0.0.0.0 --port 8000
+./start.sh
 ```
 
-Aceda pela interface disponibilizada pelo seu alojamento. O comando `seed-demo` preserva catálogos existentes. Não execute o servidor Flask de desenvolvimento na internet pública.
+Aceda pela interface disponibilizada pelo seu alojamento. O comando `seed-demo` preserva catálogos existentes. O script usa Gunicorn, respeita `PORT` (8000 por padrão), prepara as tabelas e cria o catálogo demonstrativo apenas em modo demo. A aplicação também prepara o esquema ao iniciar diretamente por Flask/Gunicorn, mesmo sem executar `init-db`.
 
 Crie o administrador interativamente, sem guardar a palavra-passe no histórico ou no Git:
 
@@ -55,7 +55,7 @@ Os testes exercitam compra, bloqueio antes da confirmação, matrícula, isolame
 ## Alojamento
 
 ```bash
-.venv/bin/gunicorn --workers 2 --bind 0.0.0.0:8000 --access-logfile - app:app
+./start.sh
 ```
 
 Use HTTPS no proxy, `COOKIE_SECURE=1`, `APP_SECRET_KEY` persistente e aleatório e um volume para a base. O health check `/saude` consulta a base. Não use `PAYMENT_MODE=live` antes de contratar e validar o gateway/adaptador em sandbox e fazer uma transação real controlada. Antes de venda real, também são necessários conteúdos autorizados, política de privacidade/reembolso, suporte, recuperação/verificação de contas, limitação de tentativas no proxy, backups e monitorização. Estas funcionalidades operacionais ainda não estão implementadas na aplicação.
@@ -63,3 +63,9 @@ Use HTTPS no proxy, `COOKIE_SECURE=1`, `APP_SECRET_KEY` persistente e aleatório
 Os vídeos YouTube/Vimeo e links públicos de PDFs não oferecem proteção contra partilha. Para conteúdos comerciais privados, adote alojamento com tokens/URLs temporárias e autorização por matrícula, em vez de links públicos.
 
 Consulte [arquitetura e jornada](docs/ARQUITETURA.md) e [pagamentos e integração](docs/PAGAMENTOS.md).
+
+## Erros GET / e HEAD / num ambiente novo
+
+Se o traceback indicar `sqlite3.OperationalError: no such table: courses`, a base operacional ainda não foi inicializada. A versão atual cria o diretório e as tabelas no arranque, preservando os dados existentes. `./start.sh` também prepara o curso demonstrativo quando `PAYMENT_MODE=demo`. No Render, use `pip install -r requirements.lock` como Build Command e `./start.sh` como Start Command. No Codespaces, depois de instalar as dependências, execute `./start.sh` e abra a porta 8000 pelo separador Ports.
+
+Após atualizar o código, reinicie o processo/serviço. Para um checkout sem alterações locais, atualize com `git pull origin main`. Se DATABASE_PATH não permitir escrita ou apontar para uma base inválida, a aplicação falha no arranque com uma explicação em vez de servir páginas com erro 500. Não apague a base para resolver: confirme o caminho, as permissões e o traceback completo. Um esquema antigo incompatível exige uma migração própria; a criação automática de tabelas não altera colunas existentes.

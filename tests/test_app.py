@@ -147,5 +147,37 @@ class LearningTests(unittest.TestCase):
             con.execute('UPDATE users SET name=?',('<script>alert(1)</script>',))
         self.assertNotIn('<script>alert(1)</script>',self.client.get('/minha-conta').text)
 
+
+class FreshStartupTests(unittest.TestCase):
+    def test_fresh_database_get_head_and_restart_preserve_data(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = directory + '/new/volume/learning.sqlite3'
+            config = {'TESTING': True, 'DATABASE': path, 'SECRET_KEY': 'test'}
+            app = create_app(config)
+            client = app.test_client()
+            self.assertEqual(client.get('/').status_code, 200)
+            response = client.head('/')
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.data, b'')
+            self.assertEqual(client.get('/saude').json['status'], 'ok')
+            result = app.test_cli_runner().invoke(args=['seed-demo'])
+            self.assertEqual(result.exit_code, 0, result.output)
+            with sqlite3.connect(path) as connection:
+                connection.execute("UPDATE courses SET title='Conteúdo existente' WHERE id=1")
+            restarted = create_app(config)
+            self.assertIn('Conteúdo existente', restarted.test_client().get('/').text)
+            result = restarted.test_cli_runner().invoke(args=['seed-demo'])
+            self.assertEqual(result.exit_code, 0, result.output)
+            with sqlite3.connect(path) as connection:
+                self.assertEqual(connection.execute('SELECT COUNT(*) FROM lessons').fetchone()[0], 25)
+                self.assertEqual(connection.execute('SELECT title FROM courses WHERE id=1').fetchone()[0], 'Conteúdo existente')
+
+    def test_unusable_database_path_fails_at_startup_with_explanation(self):
+        with tempfile.TemporaryDirectory() as directory:
+            with open(directory + '/not-a-directory', 'w') as stream:
+                stream.write('preserve')
+            with self.assertRaisesRegex(RuntimeError, 'DATABASE_PATH'):
+                create_app({'TESTING': True, 'DATABASE': directory + '/not-a-directory/db.sqlite3'})
+
 if __name__=='__main__':
     unittest.main()
