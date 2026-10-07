@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="section narrow"><p class="eyebrow">{{ error.code }}</p><h1 class="page-title">Não foi possível abrir esta página.</h1><p>{{ error.description }}</p><a class="button" href="{{ url_for('home') }}">Voltar ao início →</a></section>{% endblock %}
