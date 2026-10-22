@@ -1,5 +1,9 @@
 # CRISAVYA Learning
 
+## Conteúdos pedagógicos para revisão
+
+O pacote [CDE v1](content/competencias-digitais/CADERNO.md) contém 25 aulas desenvolvidas e 25 roteiros de videoaulas, mantendo os cinco módulos originais. Textos e roteiros estão produzidos e sujeitos a revisão; vídeos ainda não foram gravados e PDFs não foram produzidos. [Importação controlada e revisão](docs/CONTEUDOS.md): simulação por padrão, backup obrigatório para aplicar, criação aditiva de curso em rascunho e bloqueio de publicação até revisão registada. Não substitui aulas personalizadas nem altera a base operacional automaticamente.
+
 Plataforma de ensino digital para Moçambique, desenvolvida a partir do documento «Quero que desenvolva uma plataforma de ensino». Implementação nova baseada nos requisitos fornecidos; não é uma exportação do site anterior.
 
 ## Funcionalidades implementadas

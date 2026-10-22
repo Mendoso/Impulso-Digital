@@ -1,0 +1,2147 @@
+{
+  "schema_version": 1,
+  "package_id": "crisavya-cde-2026-v1",
+  "review_status": "pending_pedagogical_review",
+  "course_title": "Competências Digitais para o Emprego",
+  "modules": [
+    "Primeiros passos digitais",
+    "Documentos profissionais",
+    "Folhas de cálculo",
+    "Comunicação e emprego",
+    "Segurança e produtividade"
+  ],
+  "lessons": [
+    {
+      "id": "CDE-01",
+      "position": 1,
+      "module": "Primeiros passos digitais",
+      "title": "Organizar ficheiros e pastas",
+      "duration_minutes": 45,
+      "objectives": [
+        "Distinguir ficheiro, pasta e extensão",
+        "organizar e recuperar documentos profissionais"
+      ],
+      "theory": "Um ficheiro guarda informação: texto, imagem ou folha de cálculo. Uma pasta agrupa ficheiros. O nome ajuda a identificar o conteúdo; a extensão, como .pdf ou .xlsx, indica o formato e não deve ser alterada apenas para tentar converter o ficheiro. Copiar conserva o original; mover muda a localização. Eliminar pode enviar para a reciclagem, mas alguns dispositivos apagam definitivamente. Antes de eliminar, confirme o caminho e mantenha uma cópia. Um atalho aponta para um ficheiro e não substitui uma cópia. Use nomes claros, datas AAAA-MM-DD e versões, evitando nomes como final_final2. Num computador partilhado, não deixe documentos pessoais na pasta pública.",
+      "example": "Amina, candidata a uma vaga em Quelimane, guarda CV_Amina_v01.docx em Emprego/CV e o anúncio em Emprego/Vagas. Mantém Certificados e Candidaturas como pastas separadas.",
+      "guided_activity": [
+        "Crie a pasta Emprego e as quatro subpastas CV, Certificados, Vagas e Candidaturas.",
+        "Crie um pequeno texto de apresentação e guarde-o em CV.",
+        "Copie-o para uma pasta de segurança.",
+        "Renomeie a cópia com v02.",
+        "Pesquise pelo nome e abra o ficheiro para confirmar o conteúdo.",
+        "Elimine apenas um ficheiro de teste e tente recuperá-lo.."
+      ],
+      "consolidation": "Recebeu foto.jpg, CV.docx e anuncio.pdf. Indique a pasta adequada para cada um e explique por que mudar CV.docx para CV.pdf não converte o documento.",
+      "expected_answer": "Foto de candidatura: CV; CV.docx: CV; anuncio.pdf: Vagas. A extensão não altera a estrutura interna; é necessário exportar para PDF numa aplicação adequada.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: organizar ficheiros e pastas. Distinguir ficheiro, pasta e extensão; organizar e recuperar documentos profissionais. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um ficheiro guarda informação: texto, imagem ou folha de cálculo. Uma pasta agrupa ficheiros. O nome ajuda a identificar o conteúdo; a extensão, como .pdf ou .xlsx, indica o formato e não deve ser alterada apenas para tentar converter o ficheiro. Copiar conserva o original; mover muda a localização. Eliminar pode enviar para a reciclagem, mas alguns dispositivos apagam definitivamente. Antes de eliminar, confirme o caminho e mantenha uma cópia. Um atalho aponta para um ficheiro e não substitui uma cópia. Use nomes claros, datas AAAA-MM-DD e versões, evitando nomes como final_final2. Num computador partilhado, não deixe documentos pessoais na pasta pública."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Amina, candidata a uma vaga em Quelimane, guarda CV_Amina_v01.docx em Emprego/CV e o anúncio em Emprego/Vagas. Mantém Certificados e Candidaturas como pastas separadas."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie a pasta Emprego e as quatro subpastas CV, Certificados, Vagas e Candidaturas. Crie um pequeno texto de apresentação e guarde-o em CV. Copie-o para uma pasta de segurança. Renomeie a cópia com v02. Pesquise pelo nome e abra o ficheiro para confirmar o conteúdo. Elimine apenas um ficheiro de teste e tente recuperá-lo. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Recebeu foto.jpg, CV.docx e anuncio.pdf. Indique a pasta adequada para cada um e explique por que mudar CV.docx para CV.pdf não converte o documento. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-02",
+      "position": 2,
+      "module": "Primeiros passos digitais",
+      "title": "Navegar e pesquisar na internet",
+      "duration_minutes": 45,
+      "objectives": [
+        "Usar pesquisas específicas",
+        "distinguir resultados de fontes e avaliar credibilidade"
+      ],
+      "theory": "O navegador abre páginas; o motor de pesquisa encontra páginas. A barra de endereço permite escrever um endereço conhecido ou uma pesquisa. Resultados patrocinados são anúncios, não garantias de qualidade. Pesquise com função, local e requisitos, por exemplo assistente administrativo Maputo Excel. Aspas procuram uma expressão; site: limita um domínio. Compare autor, data, contactos e coerência com outras fontes. HTTPS protege a ligação, mas não garante que a organização seja honesta. Observe o domínio completo e evite endereços que imitam nomes conhecidos. Não descarregue executáveis para ler um anúncio. Se a ligação for cara ou lenta, prefira texto e guarde a referência para consultar depois.",
+      "example": "Bento procura uma formação em Nampula. Compara o anúncio recebido no WhatsApp com a página oficial da entidade, confirma datas e telefona para um contacto obtido nessa página.",
+      "guided_activity": [
+        "Abra o navegador e pesquise uma função profissional com a sua cidade.",
+        "Escolha dois resultados.",
+        "Registe título, endereço, entidade e data da consulta.",
+        "Encontre a página institucional por pesquisa independente.",
+        "Compare requisitos, prazo e contactos.",
+        "Guarde a referência num documento; se não houver internet, faça a comparação em duas cópias de anúncios fornecidas pelo formador.."
+      ],
+      "consolidation": "Um resultado tem HTTPS e promete emprego garantido mediante pagamento imediato. Que verificações faz antes de avançar?",
+      "expected_answer": "HTTPS não prova legitimidade. Confirmar entidade, vaga e contactos por canal independente; comparar condições e evitar pagamento ou envio de dados enquanto houver dúvidas.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: navegar e pesquisar na internet. Usar pesquisas específicas; distinguir resultados de fontes e avaliar credibilidade. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "O navegador abre páginas; o motor de pesquisa encontra páginas. A barra de endereço permite escrever um endereço conhecido ou uma pesquisa. Resultados patrocinados são anúncios, não garantias de qualidade. Pesquise com função, local e requisitos, por exemplo assistente administrativo Maputo Excel. Aspas procuram uma expressão; site: limita um domínio. Compare autor, data, contactos e coerência com outras fontes. HTTPS protege a ligação, mas não garante que a organização seja honesta. Observe o domínio completo e evite endereços que imitam nomes conhecidos. Não descarregue executáveis para ler um anúncio. Se a ligação for cara ou lenta, prefira texto e guarde a referência para consultar depois."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Bento procura uma formação em Nampula. Compara o anúncio recebido no WhatsApp com a página oficial da entidade, confirma datas e telefona para um contacto obtido nessa página."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Abra o navegador e pesquise uma função profissional com a sua cidade. Escolha dois resultados. Registe título, endereço, entidade e data da consulta. Encontre a página institucional por pesquisa independente. Compare requisitos, prazo e contactos. Guarde a referência num documento; se não houver internet, faça a comparação em duas cópias de anúncios fornecidas pelo formador. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Um resultado tem HTTPS e promete emprego garantido mediante pagamento imediato. Que verificações faz antes de avançar? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-03",
+      "position": 3,
+      "module": "Primeiros passos digitais",
+      "title": "Utilizar email profissional",
+      "duration_minutes": 45,
+      "objectives": [
+        "Compor uma mensagem clara",
+        "usar destinatários e anexos com cuidado"
+      ],
+      "theory": "O email tem destinatário, assunto e corpo. Para identifica quem deve agir; CC informa outras pessoas; CCO oculta endereços entre destinatários e pode proteger uma lista de contactos. Um assunto específico facilita a triagem. Comece com saudação, explique o motivo, indique a ação pretendida e termine com nome e contacto adequado. Evite maiúsculas em todo o texto. Antes de enviar, confirme o endereço letra por letra, o anexo, a versão e a confidencialidade. Responder a todos só é adequado quando todos precisam da resposta. Uma mensagem enviada pode ser copiada: não confie na possibilidade de a recuperar. Anexos grandes consomem dados; comprima imagens ou envie uma ligação com permissões limitadas.",
+      "example": "Celina escreve ao responsável de uma oficina em Beira: Assunto: Pedido de informação — formação em manutenção. Apresenta-se, pergunta horário e requisitos e assina com nome e telefone profissional.",
+      "guided_activity": [
+        "Crie um rascunho dirigido ao endereço de teste indicado pelo formador.",
+        "Escreva assunto e corpo com até 120 palavras.",
+        "Anexe um documento fictício de uma página.",
+        "Abra o anexo a partir do rascunho.",
+        "Reveja destinatário e ortografia.",
+        "Guarde como rascunho; só envie para a caixa de teste autorizada.."
+      ],
+      "consolidation": "Vai informar vinte formandos que não se conhecem. Como protege os endereços e que duas verificações faz antes de enviar?",
+      "expected_answer": "Usar CCO quando apropriado e colocar o próprio endereço em Para; conferir destinatários e conteúdo/anexo. Não divulgar a lista sem necessidade.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: utilizar email profissional. Compor uma mensagem clara; usar destinatários e anexos com cuidado. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "O email tem destinatário, assunto e corpo. Para identifica quem deve agir; CC informa outras pessoas; CCO oculta endereços entre destinatários e pode proteger uma lista de contactos. Um assunto específico facilita a triagem. Comece com saudação, explique o motivo, indique a ação pretendida e termine com nome e contacto adequado. Evite maiúsculas em todo o texto. Antes de enviar, confirme o endereço letra por letra, o anexo, a versão e a confidencialidade. Responder a todos só é adequado quando todos precisam da resposta. Uma mensagem enviada pode ser copiada: não confie na possibilidade de a recuperar. Anexos grandes consomem dados; comprima imagens ou envie uma ligação com permissões limitadas."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Celina escreve ao responsável de uma oficina em Beira: Assunto: Pedido de informação — formação em manutenção. Apresenta-se, pergunta horário e requisitos e assina com nome e telefone profissional."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie um rascunho dirigido ao endereço de teste indicado pelo formador. Escreva assunto e corpo com até 120 palavras. Anexe um documento fictício de uma página. Abra o anexo a partir do rascunho. Reveja destinatário e ortografia. Guarde como rascunho; só envie para a caixa de teste autorizada. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Vai informar vinte formandos que não se conhecem. Como protege os endereços e que duas verificações faz antes de enviar? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-04",
+      "position": 4,
+      "module": "Primeiros passos digitais",
+      "title": "Guardar documentos na nuvem",
+      "duration_minutes": 45,
+      "objectives": [
+        "Distinguir sincronização de backup",
+        "partilhar um documento com acesso mínimo"
+      ],
+      "theory": "Armazenamento na nuvem guarda ficheiros num serviço acessível pela internet. Sincronizar propaga alterações e pode também propagar uma eliminação. Backup é uma cópia recuperável, idealmente separada e testada. Alguns ficheiros aparecem no dispositivo apenas como referências e exigem internet para abrir. Confirme a disponibilidade offline antes de viajar. Ao partilhar, escolha visualizar ou editar conforme a tarefa; prefira pessoas identificadas a qualquer pessoa com a ligação. Retire o acesso após a colaboração. Não coloque BI, dados bancários ou documentos de terceiros em pastas públicas. A capacidade gratuita e os menus variam por serviço. Numa máquina partilhada, termine a sessão e não guarde a palavra-passe.",
+      "example": "Uma pequena associação em Chimoio partilha o relatório de atividades apenas para leitura com o coordenador. A equipa mantém uma cópia local separada e testa se a consegue abrir.",
+      "guided_activity": [
+        "Use um documento fictício.",
+        "Carregue-o numa pasta de treino de um serviço disponível.",
+        "Confirme que abre online e guarde uma cópia local.",
+        "Partilhe para leitura com uma conta de teste autorizada.",
+        "Verifique o acesso nessa conta e retire-o depois.",
+        "Se não houver internet, desenhe a sequência e execute a partilha quando houver ligação.."
+      ],
+      "consolidation": "O ficheiro sincronizado foi apagado no computador e desapareceu da nuvem. Por que aconteceu e como reduzir o risco?",
+      "expected_answer": "A sincronização propagou a eliminação. Consultar reciclagem/histórico se disponíveis e manter backup separado com recuperação testada; não presumir retenção ilimitada.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: guardar documentos na nuvem. Distinguir sincronização de backup; partilhar um documento com acesso mínimo. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Armazenamento na nuvem guarda ficheiros num serviço acessível pela internet. Sincronizar propaga alterações e pode também propagar uma eliminação. Backup é uma cópia recuperável, idealmente separada e testada. Alguns ficheiros aparecem no dispositivo apenas como referências e exigem internet para abrir. Confirme a disponibilidade offline antes de viajar. Ao partilhar, escolha visualizar ou editar conforme a tarefa; prefira pessoas identificadas a qualquer pessoa com a ligação. Retire o acesso após a colaboração. Não coloque BI, dados bancários ou documentos de terceiros em pastas públicas. A capacidade gratuita e os menus variam por serviço. Numa máquina partilhada, termine a sessão e não guarde a palavra-passe."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Uma pequena associação em Chimoio partilha o relatório de atividades apenas para leitura com o coordenador. A equipa mantém uma cópia local separada e testa se a consegue abrir."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Use um documento fictício. Carregue-o numa pasta de treino de um serviço disponível. Confirme que abre online e guarde uma cópia local. Partilhe para leitura com uma conta de teste autorizada. Verifique o acesso nessa conta e retire-o depois. Se não houver internet, desenhe a sequência e execute a partilha quando houver ligação. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "O ficheiro sincronizado foi apagado no computador e desapareceu da nuvem. Por que aconteceu e como reduzir o risco? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-05",
+      "position": 5,
+      "module": "Primeiros passos digitais",
+      "title": "Prática: organizar o seu portefólio",
+      "duration_minutes": 60,
+      "objectives": [
+        "Construir um portefólio navegável",
+        "verificar versões e permissões"
+      ],
+      "theory": "Um portefólio reúne evidências de competências, não todos os documentos pessoais. Selecione trabalhos relevantes e explique contexto, tarefa e resultado. Identifique simulações para não apresentar experiência fictícia como real. Um índice com nomes e breves descrições facilita a consulta. Retire números de identificação, assinaturas e dados de clientes dos exemplos. A cópia de distribuição pode conter PDF; mantenha os originais editáveis numa pasta privada. Verifique se as ligações funcionam numa conta de teste e se não permitem alterações indevidas. Um portefólio pequeno e claro é mais útil do que dezenas de ficheiros sem contexto.",
+      "example": "Dário prepara Portefolio_Dario com um índice, uma carta fictícia e uma tabela de despesas simuladas. Cada evidência indica que foi criada no curso e não num emprego anterior.",
+      "guided_activity": [
+        "Crie um índice com nome, objetivo profissional e lista de três evidências.",
+        "Reúna o texto de apresentação, uma ficha de pesquisa de vaga e um documento de teste.",
+        "Nomeie versões.",
+        "Separe originais de cópias de partilha.",
+        "Abra cada ficheiro e teste a ligação com acesso de leitura ou entregue uma cópia local ao formador.."
+      ],
+      "consolidation": "Entregue o índice e explique que informação retiraria de um certificado antes de o publicar numa pasta aberta.",
+      "expected_answer": "Índice com três ficheiros recuperáveis e descritos; ocultar identificadores e dados desnecessários, usar partilha restrita e autorização quando o documento pertença a terceiros.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: prática: organizar o seu portefólio. Construir um portefólio navegável; verificar versões e permissões. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um portefólio reúne evidências de competências, não todos os documentos pessoais. Selecione trabalhos relevantes e explique contexto, tarefa e resultado. Identifique simulações para não apresentar experiência fictícia como real. Um índice com nomes e breves descrições facilita a consulta. Retire números de identificação, assinaturas e dados de clientes dos exemplos. A cópia de distribuição pode conter PDF; mantenha os originais editáveis numa pasta privada. Verifique se as ligações funcionam numa conta de teste e se não permitem alterações indevidas. Um portefólio pequeno e claro é mais útil do que dezenas de ficheiros sem contexto."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Dário prepara Portefolio_Dario com um índice, uma carta fictícia e uma tabela de despesas simuladas. Cada evidência indica que foi criada no curso e não num emprego anterior."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie um índice com nome, objetivo profissional e lista de três evidências. Reúna o texto de apresentação, uma ficha de pesquisa de vaga e um documento de teste. Nomeie versões. Separe originais de cópias de partilha. Abra cada ficheiro e teste a ligação com acesso de leitura ou entregue uma cópia local ao formador. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Entregue o índice e explique que informação retiraria de um certificado antes de o publicar numa pasta aberta. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-06",
+      "position": 6,
+      "module": "Documentos profissionais",
+      "title": "Criar um documento",
+      "duration_minutes": 45,
+      "objectives": [
+        "Criar e guardar um documento editável",
+        "estruturar uma comunicação simples"
+      ],
+      "theory": "Um processador de texto permite escrever, corrigir e organizar documentos. O documento editável mantém texto e estrutura para revisão; PDF é uma cópia de distribuição. Comece com finalidade e destinatário antes da formatação. Use título, parágrafos curtos e conclusão com a ação pretendida. Guardar grava alterações no ficheiro atual; Guardar como cria outra versão ou localização. A gravação automática depende da aplicação e da configuração. Confirme o nome e a pasta e reabra o documento. Pode usar Writer, Word ou outro editor disponível; os nomes dos menus variam. Não é necessário comprar uma licença para praticar os conceitos.",
+      "example": "Uma loja em Matola precisa de uma nota aos colaboradores sobre inventário. O texto indica data, horário, responsável e material necessário, sem linguagem ambígua.",
+      "guided_activity": [
+        "Abra um editor.",
+        "Escreva uma nota de 150 a 200 palavras sobre uma sessão fictícia de formação.",
+        "Inclua título, destinatários, data, local e instruções.",
+        "Guarde em Documentos/Nota_formacao_v01 no formato editável da aplicação.",
+        "Feche e reabra.",
+        "Corrija uma frase e guarde uma versão v02.."
+      ],
+      "consolidation": "A sessão muda de sexta para sábado. Que partes revê e como conserva a primeira versão?",
+      "expected_answer": "Rever todas as referências ao dia, data e eventuais horários; guardar uma nova versão identificada sem substituir a anterior. Confirmar coerência do texto.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: criar um documento. Criar e guardar um documento editável; estruturar uma comunicação simples. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um processador de texto permite escrever, corrigir e organizar documentos. O documento editável mantém texto e estrutura para revisão; PDF é uma cópia de distribuição. Comece com finalidade e destinatário antes da formatação. Use título, parágrafos curtos e conclusão com a ação pretendida. Guardar grava alterações no ficheiro atual; Guardar como cria outra versão ou localização. A gravação automática depende da aplicação e da configuração. Confirme o nome e a pasta e reabra o documento. Pode usar Writer, Word ou outro editor disponível; os nomes dos menus variam. Não é necessário comprar uma licença para praticar os conceitos."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Uma loja em Matola precisa de uma nota aos colaboradores sobre inventário. O texto indica data, horário, responsável e material necessário, sem linguagem ambígua."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Abra um editor. Escreva uma nota de 150 a 200 palavras sobre uma sessão fictícia de formação. Inclua título, destinatários, data, local e instruções. Guarde em Documentos/Nota_formacao_v01 no formato editável da aplicação. Feche e reabra. Corrija uma frase e guarde uma versão v02. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "A sessão muda de sexta para sábado. Que partes revê e como conserva a primeira versão? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-07",
+      "position": 7,
+      "module": "Documentos profissionais",
+      "title": "Formatar texto com clareza",
+      "duration_minutes": 45,
+      "objectives": [
+        "Aplicar estilos e listas",
+        "melhorar legibilidade sem excesso visual"
+      ],
+      "theory": "Formatação comunica hierarquia. Use estilos de título para secções, texto normal para parágrafos e listas para passos ou itens paralelos. Não alinhe texto com muitas barras de espaço: use alinhamento, recuos ou uma tabela simples. Uma fonte legível, tamanho adequado e contraste suficiente ajudam quem lê num telemóvel ou imprime a preto e branco. Espaçamento entre parágrafos deve ser consistente. Não transmita significado apenas pela cor. Use negrito com moderação. Quebras de página controlam a separação entre páginas melhor do que linhas vazias repetidas. A pré-visualização ajuda a encontrar títulos isolados e texto cortado.",
+      "example": "Eunice transforma um aviso de formação com cinco fontes numa página com um título, dois subtítulos, corpo legível e lista numerada dos documentos a apresentar.",
+      "guided_activity": [
+        "Abra a nota anterior e guarde uma cópia.",
+        "Aplique um estilo ao título e outro aos subtítulos.",
+        "Uniformize o corpo, crie uma lista de três instruções e ajuste o espaçamento.",
+        "Inspecione a pré-visualização.",
+        "Amplie a página e confirme que o contraste e a ordem de leitura continuam claros.."
+      ],
+      "consolidation": "Explique duas razões para preferir estilos e listas a títulos feitos apenas com espaços, cores e letras grandes.",
+      "expected_answer": "Estilos mantêm consistência e estrutura navegável; listas exprimem ordem ou agrupamento. Espaços e cor isolada podem perder alinhamento e dificultar acessibilidade.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: formatar texto com clareza. Aplicar estilos e listas; melhorar legibilidade sem excesso visual. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Formatação comunica hierarquia. Use estilos de título para secções, texto normal para parágrafos e listas para passos ou itens paralelos. Não alinhe texto com muitas barras de espaço: use alinhamento, recuos ou uma tabela simples. Uma fonte legível, tamanho adequado e contraste suficiente ajudam quem lê num telemóvel ou imprime a preto e branco. Espaçamento entre parágrafos deve ser consistente. Não transmita significado apenas pela cor. Use negrito com moderação. Quebras de página controlam a separação entre páginas melhor do que linhas vazias repetidas. A pré-visualização ajuda a encontrar títulos isolados e texto cortado."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Eunice transforma um aviso de formação com cinco fontes numa página com um título, dois subtítulos, corpo legível e lista numerada dos documentos a apresentar."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Abra a nota anterior e guarde uma cópia. Aplique um estilo ao título e outro aos subtítulos. Uniformize o corpo, crie uma lista de três instruções e ajuste o espaçamento. Inspecione a pré-visualização. Amplie a página e confirme que o contraste e a ordem de leitura continuam claros. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Explique duas razões para preferir estilos e listas a títulos feitos apenas com espaços, cores e letras grandes. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-08",
+      "position": 8,
+      "module": "Documentos profissionais",
+      "title": "Construir um currículo",
+      "duration_minutes": 45,
+      "objectives": [
+        "Selecionar informação verdadeira e relevante",
+        "adaptar um CV a uma vaga"
+      ],
+      "theory": "O currículo resume adequação à função. Inclua nome, contacto profissional, resumo curto, experiência, formação e competências demonstráveis. Ordene a experiência da mais recente para a mais antiga. Descreva ação, contexto e resultado verificável. Quem procura o primeiro emprego pode usar projetos de curso, voluntariado ou estágio, claramente identificados. Adapte palavras-chave aos requisitos sem inventar certificações. Evite números de documentos, religião, dados familiares e outros dados desnecessários; requisitos específicos devem ser avaliados antes do envio. Uma ou duas páginas costumam bastar para uma candidatura inicial. Um CV simples é mais fácil de ler e de extrair por sistemas automáticos do que um documento cheio de imagens.",
+      "example": "Fátima candidata-se a assistente administrativa em Tete. Em vez de especialista em Excel, escreve: organizei uma tabela simulada de despesas com totais e gráfico durante formação.",
+      "guided_activity": [
+        "Escolha um anúncio de treino.",
+        "Liste três requisitos.",
+        "Crie um CV com contactos fictícios, resumo de três linhas, experiência ou projetos, formação e competências.",
+        "Para cada competência, associe uma evidência real ou uma simulação identificada.",
+        "Peça a um colega que localize os três requisitos no CV e registe lacunas.."
+      ],
+      "consolidation": "Reescreva sou excelente em informática como uma frase demonstrável, sem inventar experiência ou resultados.",
+      "expected_answer": "Exemplo: durante o curso, produzi um orçamento mensal em folha de cálculo com SOMA e gráfico. A frase especifica tarefa e contexto e pode ser comprovada pelo ficheiro.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: construir um currículo. Selecionar informação verdadeira e relevante; adaptar um CV a uma vaga. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "O currículo resume adequação à função. Inclua nome, contacto profissional, resumo curto, experiência, formação e competências demonstráveis. Ordene a experiência da mais recente para a mais antiga. Descreva ação, contexto e resultado verificável. Quem procura o primeiro emprego pode usar projetos de curso, voluntariado ou estágio, claramente identificados. Adapte palavras-chave aos requisitos sem inventar certificações. Evite números de documentos, religião, dados familiares e outros dados desnecessários; requisitos específicos devem ser avaliados antes do envio. Uma ou duas páginas costumam bastar para uma candidatura inicial. Um CV simples é mais fácil de ler e de extrair por sistemas automáticos do que um documento cheio de imagens."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Fátima candidata-se a assistente administrativa em Tete. Em vez de especialista em Excel, escreve: organizei uma tabela simulada de despesas com totais e gráfico durante formação."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Escolha um anúncio de treino. Liste três requisitos. Crie um CV com contactos fictícios, resumo de três linhas, experiência ou projetos, formação e competências. Para cada competência, associe uma evidência real ou uma simulação identificada. Peça a um colega que localize os três requisitos no CV e registe lacunas. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Reescreva sou excelente em informática como uma frase demonstrável, sem inventar experiência ou resultados. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-09",
+      "position": 9,
+      "module": "Documentos profissionais",
+      "title": "Exportar e partilhar PDF",
+      "duration_minutes": 45,
+      "objectives": [
+        "Exportar um PDF legível",
+        "verificar conteúdo e acesso antes da partilha"
+      ],
+      "theory": "PDF tende a conservar a disposição do documento em diferentes dispositivos, mas deve ser verificado após exportação. Use Exportar ou Guardar como PDF; mudar a extensão não converte o ficheiro. Mantenha a versão editável para futuras revisões. Verifique número de páginas, caracteres acentuados, ligações e texto selecionável. Uma digitalização é uma imagem e pode não ser pesquisável ou acessível sem reconhecimento de texto. Reduza imagens demasiado grandes sem tornar o texto ilegível. Comentários, alterações registadas e metadados podem revelar informação: resolva-os antes de distribuir. Uma ligação de partilha deve permitir apenas o acesso necessário.",
+      "example": "Gildo exporta o CV em PDF para uma vaga em Pemba. Abre no telemóvel, verifica que o telefone e o email estão corretos e confirma que não há página em branco.",
+      "guided_activity": [
+        "Exporte o CV de treino para PDF com nome claro.",
+        "Abra o PDF numa aplicação diferente.",
+        "Selecione uma frase, teste uma ligação e veja todas as páginas.",
+        "Compare com o original.",
+        "Verifique tamanho do ficheiro conforme o limite do anúncio.",
+        "Prepare um rascunho de partilha para o formador, sem enviar dados pessoais reais.."
+      ],
+      "consolidation": "O PDF mostra o título cortado e quatro páginas em branco. Deve enviá-lo? Descreva a correção.",
+      "expected_answer": "Não enviar ainda. Corrigir margens, quebras ou elementos no original editável, exportar novamente e verificar todas as páginas no PDF final.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: exportar e partilhar pdf. Exportar um PDF legível; verificar conteúdo e acesso antes da partilha. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "PDF tende a conservar a disposição do documento em diferentes dispositivos, mas deve ser verificado após exportação. Use Exportar ou Guardar como PDF; mudar a extensão não converte o ficheiro. Mantenha a versão editável para futuras revisões. Verifique número de páginas, caracteres acentuados, ligações e texto selecionável. Uma digitalização é uma imagem e pode não ser pesquisável ou acessível sem reconhecimento de texto. Reduza imagens demasiado grandes sem tornar o texto ilegível. Comentários, alterações registadas e metadados podem revelar informação: resolva-os antes de distribuir. Uma ligação de partilha deve permitir apenas o acesso necessário."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Gildo exporta o CV em PDF para uma vaga em Pemba. Abre no telemóvel, verifica que o telefone e o email estão corretos e confirma que não há página em branco."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Exporte o CV de treino para PDF com nome claro. Abra o PDF numa aplicação diferente. Selecione uma frase, teste uma ligação e veja todas as páginas. Compare com o original. Verifique tamanho do ficheiro conforme o limite do anúncio. Prepare um rascunho de partilha para o formador, sem enviar dados pessoais reais. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "O PDF mostra o título cortado e quatro páginas em branco. Deve enviá-lo? Descreva a correção. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-10",
+      "position": 10,
+      "module": "Documentos profissionais",
+      "title": "Prática: rever o seu currículo",
+      "duration_minutes": 60,
+      "objectives": [
+        "Rever adequação, veracidade e apresentação",
+        "entregar versões editável e PDF"
+      ],
+      "theory": "Revisão de CV tem três níveis: conteúdo, linguagem e apresentação. Primeiro compare com a vaga e verifique cada afirmação. Depois retire repetições, corrija datas e use verbos claros. Por fim confira espaçamento, paginação e contactos. Uma revisão por pares ajuda a detetar omissões, mas o autor decide e responde pela veracidade. Use uma lista de verificação para não depender apenas da aparência. Não envie o CV de um colega sem autorização. O ficheiro final deve ter nome profissional e estar separado das versões de trabalho.",
+      "example": "Helena encontra no próprio CV datas contraditórias e uma competência sem evidência. Corrige as datas e substitui a afirmação por uma descrição honesta de aprendizagem.",
+      "guided_activity": [
+        "Compare CV e anúncio.",
+        "Marque cada requisito como evidenciado, em aprendizagem ou ausente.",
+        "Faça uma revisão de contactos, datas, ortografia e dados sensíveis.",
+        "Peça feedback usando uma cópia fictícia.",
+        "Registe três melhorias, aplique-as e entregue o editável, o PDF verificado e uma nota explicando as mudanças.."
+      ],
+      "consolidation": "O anúncio exige experiência que ainda não tem. Como adapta a candidatura sem afirmar algo falso?",
+      "expected_answer": "Mostrar projetos e competências transferíveis com contexto verdadeiro, reconhecer a lacuna quando relevante e apresentar disponibilidade para aprender; nunca inventar vínculo, duração ou certificação.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: prática: rever o seu currículo. Rever adequação, veracidade e apresentação; entregar versões editável e PDF. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Revisão de CV tem três níveis: conteúdo, linguagem e apresentação. Primeiro compare com a vaga e verifique cada afirmação. Depois retire repetições, corrija datas e use verbos claros. Por fim confira espaçamento, paginação e contactos. Uma revisão por pares ajuda a detetar omissões, mas o autor decide e responde pela veracidade. Use uma lista de verificação para não depender apenas da aparência. Não envie o CV de um colega sem autorização. O ficheiro final deve ter nome profissional e estar separado das versões de trabalho."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Helena encontra no próprio CV datas contraditórias e uma competência sem evidência. Corrige as datas e substitui a afirmação por uma descrição honesta de aprendizagem."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Compare CV e anúncio. Marque cada requisito como evidenciado, em aprendizagem ou ausente. Faça uma revisão de contactos, datas, ortografia e dados sensíveis. Peça feedback usando uma cópia fictícia. Registe três melhorias, aplique-as e entregue o editável, o PDF verificado e uma nota explicando as mudanças. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "O anúncio exige experiência que ainda não tem. Como adapta a candidatura sem afirmar algo falso? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-11",
+      "position": 11,
+      "module": "Folhas de cálculo",
+      "title": "Conhecer células e tabelas",
+      "duration_minutes": 45,
+      "objectives": [
+        "Identificar linhas, colunas e intervalos",
+        "organizar dados tabulares consistentes"
+      ],
+      "theory": "Uma folha de cálculo organiza dados em células. A coluna usa letras, a linha números e A1 identifica a interseção. Um intervalo como A2:C6 reúne várias células. Cada linha de uma tabela deve representar um registo e cada coluna uma variável. Reserve uma linha para cabeçalhos claros. Evite células unidas no meio dos dados porque dificultam ordenar e filtrar. Texto, números e datas têm comportamentos diferentes. Aplicar formato monetário muda a apresentação, não converte texto em número nem altera moeda. Ordene a tabela inteira para não separar nome e valor. Use dados fictícios durante a formação.",
+      "example": "Uma banca em Xai-Xai regista Data, Produto, Quantidade e Preço unitário. Cada venda ocupa uma linha, permitindo filtrar por produto sem perder a correspondência com a quantidade.",
+      "guided_activity": [
+        "Crie uma tabela com quatro cabeçalhos e cinco vendas fictícias.",
+        "Formate quantidade como número e preço como MZN com duas casas.",
+        "Identifique o intervalo dos dados.",
+        "Ordene a tabela inteira por produto e confirme que as linhas continuam corretas.",
+        "Guarde no formato editável.."
+      ],
+      "consolidation": "A célula B3 tem quantidade e C3 preço. O que representa B3:C3 e qual o risco de ordenar apenas B?",
+      "expected_answer": "É o intervalo com essas duas células. Ordenar só a quantidade pode associá-la ao produto ou preço errado, corrompendo a tabela.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: conhecer células e tabelas. Identificar linhas, colunas e intervalos; organizar dados tabulares consistentes. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma folha de cálculo organiza dados em células. A coluna usa letras, a linha números e A1 identifica a interseção. Um intervalo como A2:C6 reúne várias células. Cada linha de uma tabela deve representar um registo e cada coluna uma variável. Reserve uma linha para cabeçalhos claros. Evite células unidas no meio dos dados porque dificultam ordenar e filtrar. Texto, números e datas têm comportamentos diferentes. Aplicar formato monetário muda a apresentação, não converte texto em número nem altera moeda. Ordene a tabela inteira para não separar nome e valor. Use dados fictícios durante a formação."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Uma banca em Xai-Xai regista Data, Produto, Quantidade e Preço unitário. Cada venda ocupa uma linha, permitindo filtrar por produto sem perder a correspondência com a quantidade."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie uma tabela com quatro cabeçalhos e cinco vendas fictícias. Formate quantidade como número e preço como MZN com duas casas. Identifique o intervalo dos dados. Ordene a tabela inteira por produto e confirme que as linhas continuam corretas. Guarde no formato editável. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "A célula B3 tem quantidade e C3 preço. O que representa B3:C3 e qual o risco de ordenar apenas B? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-12",
+      "position": 12,
+      "module": "Folhas de cálculo",
+      "title": "Calcular receitas e despesas",
+      "duration_minutes": 45,
+      "objectives": [
+        "Distinguir entrada, saída e saldo",
+        "calcular um resultado e conferir a unidade"
+      ],
+      "theory": "Receita é entrada de recursos; despesa é saída. O saldo simples é receitas menos despesas. Saldo positivo não garante lucro empresarial: podem faltar dívidas, impostos, depreciação ou custos ainda não registados. Registe período, descrição e valor com unidade MZN. Use categorias consistentes e não misture valores em USD e MZN sem uma taxa documentada. Para esta aula, todos os valores são fictícios e na mesma moeda. Faça uma conferência manual de uma amostra. Não conte o mesmo movimento duas vezes. Um orçamento é previsão; o registo realizado descreve o que aconteceu.",
+      "example": "Uma prestação de serviços fictícia em Maputo recebe 12.000 MZN e paga 3.500 de transporte, 2.000 de dados e 1.500 de material. As saídas somam 7.000 e o saldo simples é 5.000 MZN.",
+      "guided_activity": [
+        "Crie colunas Descrição, Receitas e Despesas.",
+        "Introduza os quatro movimentos do exemplo, uma linha por movimento.",
+        "Calcule os totais e subtraia despesas a receitas.",
+        "Confira com calculadora.",
+        "Acrescente uma despesa de 800 MZN e observe o novo saldo.",
+        "Escreva o período e a moeda no cabeçalho.."
+      ],
+      "consolidation": "Receitas de 8.500 MZN e despesas de 9.200 MZN: calcule o saldo e interprete-o.",
+      "expected_answer": "8.500 − 9.200 = −700 MZN. No período, as saídas excedem as entradas em 700; é necessário rever despesas ou financiamento, sem chamar a isso automaticamente prejuízo contabilístico.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: calcular receitas e despesas. Distinguir entrada, saída e saldo; calcular um resultado e conferir a unidade. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Receita é entrada de recursos; despesa é saída. O saldo simples é receitas menos despesas. Saldo positivo não garante lucro empresarial: podem faltar dívidas, impostos, depreciação ou custos ainda não registados. Registe período, descrição e valor com unidade MZN. Use categorias consistentes e não misture valores em USD e MZN sem uma taxa documentada. Para esta aula, todos os valores são fictícios e na mesma moeda. Faça uma conferência manual de uma amostra. Não conte o mesmo movimento duas vezes. Um orçamento é previsão; o registo realizado descreve o que aconteceu."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Uma prestação de serviços fictícia em Maputo recebe 12.000 MZN e paga 3.500 de transporte, 2.000 de dados e 1.500 de material. As saídas somam 7.000 e o saldo simples é 5.000 MZN."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie colunas Descrição, Receitas e Despesas. Introduza os quatro movimentos do exemplo, uma linha por movimento. Calcule os totais e subtraia despesas a receitas. Confira com calculadora. Acrescente uma despesa de 800 MZN e observe o novo saldo. Escreva o período e a moeda no cabeçalho. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Receitas de 8.500 MZN e despesas de 9.200 MZN: calcule o saldo e interprete-o. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-13",
+      "position": 13,
+      "module": "Folhas de cálculo",
+      "title": "Aplicar fórmulas básicas",
+      "duration_minutes": 45,
+      "objectives": [
+        "Usar referências e funções",
+        "conferir resultados e erros comuns"
+      ],
+      "theory": "Uma fórmula começa por =. =B2*C2 multiplica valores das células; ao copiar para a linha seguinte, referências relativas mudam para B3 e C3. Uma referência absoluta como $F$1 conserva a célula ao copiar. SOMA agrega um intervalo e MÉDIA calcula a média aritmética. Algumas instalações usam SUM e AVERAGE e separadores diferentes; consulte a ajuda da aplicação. =SOMA(D2:D6) inclui o intervalo inteiro. Não digite totais manualmente quando os dados mudam. Erros podem vir de números guardados como texto, intervalos incompletos ou divisão por zero. Compare um resultado com cálculo manual antes de confiar na folha.",
+      "example": "Ilda regista 3 cadernos a 80 MZN e 2 canetas a 25 MZN. D2 = B2*C2 dá 240; D3 dá 50; SOMA(D2:D3) dá 290 MZN.",
+      "guided_activity": [
+        "Crie Produto, Quantidade, Preço e Total.",
+        "Introduza os dados do exemplo e mais três produtos.",
+        "Escreva =B2*C2 e copie para as linhas seguintes.",
+        "Some os totais.",
+        "Numa coluna de treino, use uma taxa fictícia em F1 e referência $F$1 para calcular um acréscimo.",
+        "Altere uma quantidade e confira a atualização.."
+      ],
+      "consolidation": "Em D2 está =B2*C2. Qual fórmula espera em D3 após copiar? Qual o total de 4 unidades a 125 MZN?",
+      "expected_answer": "=B3*C3; 500 MZN. As referências relativas acompanham a linha. Confirmar que B3 e C3 são números e que a fórmula não usa a linha do cabeçalho.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: aplicar fórmulas básicas. Usar referências e funções; conferir resultados e erros comuns. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma fórmula começa por =. =B2*C2 multiplica valores das células; ao copiar para a linha seguinte, referências relativas mudam para B3 e C3. Uma referência absoluta como $F$1 conserva a célula ao copiar. SOMA agrega um intervalo e MÉDIA calcula a média aritmética. Algumas instalações usam SUM e AVERAGE e separadores diferentes; consulte a ajuda da aplicação. =SOMA(D2:D6) inclui o intervalo inteiro. Não digite totais manualmente quando os dados mudam. Erros podem vir de números guardados como texto, intervalos incompletos ou divisão por zero. Compare um resultado com cálculo manual antes de confiar na folha."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Ilda regista 3 cadernos a 80 MZN e 2 canetas a 25 MZN. D2 = B2*C2 dá 240; D3 dá 50; SOMA(D2:D3) dá 290 MZN."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie Produto, Quantidade, Preço e Total. Introduza os dados do exemplo e mais três produtos. Escreva =B2*C2 e copie para as linhas seguintes. Some os totais. Numa coluna de treino, use uma taxa fictícia em F1 e referência $F$1 para calcular um acréscimo. Altere uma quantidade e confira a atualização. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Em D2 está =B2*C2. Qual fórmula espera em D3 após copiar? Qual o total de 4 unidades a 125 MZN? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-14",
+      "position": 14,
+      "module": "Folhas de cálculo",
+      "title": "Criar um gráfico",
+      "duration_minutes": 45,
+      "objectives": [
+        "Escolher um gráfico adequado",
+        "apresentar dados sem distorção"
+      ],
+      "theory": "Um gráfico torna comparações ou tendências visíveis. Colunas ou barras comparam categorias; linhas ajudam a observar evolução ao longo do tempo. Selecione rótulos e valores, excluindo totais que duplicam as categorias. Indique título, período e unidade. Para comparar montantes por barras, comece normalmente o eixo no zero para não exagerar diferenças. Evite efeitos 3D e excesso de cores. Um gráfico não explica sozinho as causas. Inclua uma frase com a principal observação e mantenha uma tabela para quem não consegue interpretar a imagem. Não use dados pessoais desnecessários.",
+      "example": "Uma papelaria em Nampula compara despesas simuladas: transporte 1.500, dados 800 e material 2.200 MZN. Um gráfico de colunas mostra material como a maior categoria.",
+      "guided_activity": [
+        "Introduza as três categorias e montantes.",
+        "Selecione a tabela e insira colunas ou barras.",
+        "Dê o título Despesas simuladas — Outubro, eixo em MZN e escala a partir de zero.",
+        "Confirme correspondência entre tabela e gráfico.",
+        "Escreva duas frases: a maior categoria e a diferença para a menor.",
+        "Guarde a folha.."
+      ],
+      "consolidation": "Qual é a diferença entre material e dados no exemplo? Um gráfico prova que material está caro demais?",
+      "expected_answer": "2.200 − 800 = 1.400 MZN. Não prova excesso: faltam necessidades, quantidade e comparação de preços. O gráfico descreve os valores fornecidos.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: criar um gráfico. Escolher um gráfico adequado; apresentar dados sem distorção. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um gráfico torna comparações ou tendências visíveis. Colunas ou barras comparam categorias; linhas ajudam a observar evolução ao longo do tempo. Selecione rótulos e valores, excluindo totais que duplicam as categorias. Indique título, período e unidade. Para comparar montantes por barras, comece normalmente o eixo no zero para não exagerar diferenças. Evite efeitos 3D e excesso de cores. Um gráfico não explica sozinho as causas. Inclua uma frase com a principal observação e mantenha uma tabela para quem não consegue interpretar a imagem. Não use dados pessoais desnecessários."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Uma papelaria em Nampula compara despesas simuladas: transporte 1.500, dados 800 e material 2.200 MZN. Um gráfico de colunas mostra material como a maior categoria."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Introduza as três categorias e montantes. Selecione a tabela e insira colunas ou barras. Dê o título Despesas simuladas — Outubro, eixo em MZN e escala a partir de zero. Confirme correspondência entre tabela e gráfico. Escreva duas frases: a maior categoria e a diferença para a menor. Guarde a folha. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Qual é a diferença entre material e dados no exemplo? Um gráfico prova que material está caro demais? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-15",
+      "position": 15,
+      "module": "Folhas de cálculo",
+      "title": "Prática: orçamento mensal",
+      "duration_minutes": 60,
+      "objectives": [
+        "Construir um orçamento com fórmulas",
+        "comparar previsto e realizado"
+      ],
+      "theory": "O orçamento planeia recursos para um período e deve separar valores previstos dos realizados. Defina receitas, despesas essenciais, outras despesas e eventual reserva. Não há percentagem universal adequada a todas as famílias. Registe hipóteses e atualize quando a realidade mudar. Uma diferença pode ser calculada como realizado menos previsto: nas despesas, valor positivo significa gasto acima do plano. Nomeie a fórmula usada para evitar interpretações invertidas. Não esconda saldo negativo com números inventados. Esta prática usa uma família fictícia e não exige revelar rendimentos pessoais.",
+      "example": "No orçamento fictício de Joaquim, a receita prevista é 15.000 MZN. Renda 5.000, alimentação 4.000, transporte 2.000 e dados 1.000 somam 12.000, deixando 3.000. Alimentação realizada de 4.600 excede a previsão em 600.",
+      "guided_activity": [
+        "Crie Descrição, Previsto, Realizado e Diferença.",
+        "Introduza os dados do exemplo e mantenha os outros realizados iguais ao previsto.",
+        "Calcule totais, diferença por categoria e saldo previsto/realizado.",
+        "Faça um gráfico das despesas previstas.",
+        "Simule uma redução de receita de 1.500 e proponha dois ajustes fundamentados, sem alterar o registo original.."
+      ],
+      "consolidation": "Entregue a folha e calcule o saldo realizado antes da redução da receita. Identifique uma limitação do modelo.",
+      "expected_answer": "Despesas realizadas 12.600; saldo 2.400 MZN. O modelo omite despesas não listadas e não representa automaticamente todas as necessidades ou obrigações da família.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: prática: orçamento mensal. Construir um orçamento com fórmulas; comparar previsto e realizado. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "O orçamento planeia recursos para um período e deve separar valores previstos dos realizados. Defina receitas, despesas essenciais, outras despesas e eventual reserva. Não há percentagem universal adequada a todas as famílias. Registe hipóteses e atualize quando a realidade mudar. Uma diferença pode ser calculada como realizado menos previsto: nas despesas, valor positivo significa gasto acima do plano. Nomeie a fórmula usada para evitar interpretações invertidas. Não esconda saldo negativo com números inventados. Esta prática usa uma família fictícia e não exige revelar rendimentos pessoais."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "No orçamento fictício de Joaquim, a receita prevista é 15.000 MZN. Renda 5.000, alimentação 4.000, transporte 2.000 e dados 1.000 somam 12.000, deixando 3.000. Alimentação realizada de 4.600 excede a previsão em 600."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Crie Descrição, Previsto, Realizado e Diferença. Introduza os dados do exemplo e mantenha os outros realizados iguais ao previsto. Calcule totais, diferença por categoria e saldo previsto/realizado. Faça um gráfico das despesas previstas. Simule uma redução de receita de 1.500 e proponha dois ajustes fundamentados, sem alterar o registo original. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Entregue a folha e calcule o saldo realizado antes da redução da receita. Identifique uma limitação do modelo. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-16",
+      "position": 16,
+      "module": "Comunicação e emprego",
+      "title": "Procurar oportunidades",
+      "duration_minutes": 45,
+      "objectives": [
+        "Interpretar um anúncio",
+        "organizar e verificar oportunidades adequadas"
+      ],
+      "theory": "Procurar emprego exige filtrar por função, local, requisitos e prazo. Distinga requisitos obrigatórios dos desejáveis. Verifique a entidade por canais independentes e não confunda uma partilha em rede social com a fonte original. Registe título, entidade, fonte, prazo e estado numa tabela. Confirme fuso horário e formato de submissão quando indicados. Desconfie de garantia de contratação, pressão para pagar ou pedidos de PIN de carteira móvel. Uma vaga pode ser verdadeira e já estar encerrada. A decisão deve considerar competências, condições e legitimidade, sem prometer contratação.",
+      "example": "Lúcia compara duas vagas fictícias de assistente administrativa em Maputo. Uma exige experiência e outra aceita iniciantes. Prioriza a segunda e confirma o anúncio no canal oficial da organização.",
+      "guided_activity": [
+        "Analise dois anúncios de treino.",
+        "Preencha uma tabela com função, entidade, local, obrigatórios, desejáveis, prazo e fonte.",
+        "Marque correspondências com o seu perfil sem inventar competências.",
+        "Confirme a fonte ou assinale verificação pendente.",
+        "Escolha uma vaga e justifique com três critérios.."
+      ],
+      "consolidation": "Um anúncio partilhado hoje tem prazo da semana passada. O que regista e como procede?",
+      "expected_answer": "Registar como prazo aparentemente encerrado e confirmar no canal oficial se houve extensão. Não presumir validade pela data da partilha nem enviar dados para intermediários não verificados.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: procurar oportunidades. Interpretar um anúncio; organizar e verificar oportunidades adequadas. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Procurar emprego exige filtrar por função, local, requisitos e prazo. Distinga requisitos obrigatórios dos desejáveis. Verifique a entidade por canais independentes e não confunda uma partilha em rede social com a fonte original. Registe título, entidade, fonte, prazo e estado numa tabela. Confirme fuso horário e formato de submissão quando indicados. Desconfie de garantia de contratação, pressão para pagar ou pedidos de PIN de carteira móvel. Uma vaga pode ser verdadeira e já estar encerrada. A decisão deve considerar competências, condições e legitimidade, sem prometer contratação."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Lúcia compara duas vagas fictícias de assistente administrativa em Maputo. Uma exige experiência e outra aceita iniciantes. Prioriza a segunda e confirma o anúncio no canal oficial da organização."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Analise dois anúncios de treino. Preencha uma tabela com função, entidade, local, obrigatórios, desejáveis, prazo e fonte. Marque correspondências com o seu perfil sem inventar competências. Confirme a fonte ou assinale verificação pendente. Escolha uma vaga e justifique com três critérios. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Um anúncio partilhado hoje tem prazo da semana passada. O que regista e como procede? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-17",
+      "position": 17,
+      "module": "Comunicação e emprego",
+      "title": "Preparar candidatura por email",
+      "duration_minutes": 45,
+      "objectives": [
+        "Adaptar uma mensagem à vaga",
+        "conferir instruções e documentos"
+      ],
+      "theory": "Uma candidatura por email liga o seu perfil ao que a entidade procura. Siga o assunto, referência, formato e canal exigidos no anúncio. Uma mensagem breve deve identificar a vaga, apresentar duas evidências relevantes e indicar anexos. Evite copiar o CV inteiro no corpo. Use nome de ficheiro claro, como CV_Nome_Funcao.pdf. Não envie anexos que não foram solicitados e exponham dados sensíveis. Confirme destinatário, prazo, ortografia e ficheiros abertos a partir do rascunho. Enviar um email não equivale a ser selecionado. Registe a data e guarde a versão submetida para futuras consultas.",
+      "example": "Mateus prepara Assunto: Candidatura — Assistente Administrativo — Ref. TREINO-01. Menciona organização de documentos e orçamento produzido no curso, identificando-os como projetos de formação.",
+      "guided_activity": [
+        "Use a vaga escolhida na aula anterior.",
+        "Escreva uma mensagem com 100 a 150 palavras e duas evidências.",
+        "Anexe apenas o CV fictício em PDF.",
+        "Compare com todas as instruções do anúncio.",
+        "Peça ao formador uma revisão e guarde o rascunho.",
+        "Para treino, envie apenas à caixa autorizada, nunca a uma entidade real sem decisão própria.."
+      ],
+      "consolidation": "O anúncio pede referência no assunto e um único PDF, mas preparou três ficheiros. Como corrige?",
+      "expected_answer": "Usar a referência exata e preparar o documento único com o conteúdo solicitado, se necessário combinando os documentos autorizados; verificar legibilidade, tamanho e ordem antes do envio.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: preparar candidatura por email. Adaptar uma mensagem à vaga; conferir instruções e documentos. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma candidatura por email liga o seu perfil ao que a entidade procura. Siga o assunto, referência, formato e canal exigidos no anúncio. Uma mensagem breve deve identificar a vaga, apresentar duas evidências relevantes e indicar anexos. Evite copiar o CV inteiro no corpo. Use nome de ficheiro claro, como CV_Nome_Funcao.pdf. Não envie anexos que não foram solicitados e exponham dados sensíveis. Confirme destinatário, prazo, ortografia e ficheiros abertos a partir do rascunho. Enviar um email não equivale a ser selecionado. Registe a data e guarde a versão submetida para futuras consultas."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Mateus prepara Assunto: Candidatura — Assistente Administrativo — Ref. TREINO-01. Menciona organização de documentos e orçamento produzido no curso, identificando-os como projetos de formação."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Use a vaga escolhida na aula anterior. Escreva uma mensagem com 100 a 150 palavras e duas evidências. Anexe apenas o CV fictício em PDF. Compare com todas as instruções do anúncio. Peça ao formador uma revisão e guarde o rascunho. Para treino, envie apenas à caixa autorizada, nunca a uma entidade real sem decisão própria. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "O anúncio pede referência no assunto e um único PDF, mas preparou três ficheiros. Como corrige? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-18",
+      "position": 18,
+      "module": "Comunicação e emprego",
+      "title": "Participar em reunião online",
+      "duration_minutes": 45,
+      "objectives": [
+        "Preparar ligação e equipamento",
+        "comunicar e proteger a privacidade numa reunião"
+      ],
+      "theory": "Uma reunião online usa áudio, vídeo e partilha de ecrã. Teste ligação, microfone e permissões antes do horário. Auriculares reduzem eco; manter o microfone desligado enquanto escuta reduz ruído. Confirme o fuso horário com o organizador. Numa ligação limitada, desligar vídeo pode poupar dados, conforme as condições da reunião. Feche aplicações e notificações privadas antes de partilhar; prefira uma janela ao ecrã inteiro. Só grave com autorização e informação aos participantes. Não publique a ligação de acesso. Se a ligação cair, use o canal combinado para informar e pedir orientações.",
+      "example": "Nádia, em Quelimane, faz uma entrevista de treino. Entra cinco minutos antes, testa áudio, mantém o CV aberto e partilha apenas a janela do portefólio, sem mostrar mensagens pessoais.",
+      "guided_activity": [
+        "Com um colega autorizado, marque uma reunião de treino de dez minutos.",
+        "Confirme hora e ligação por canal conhecido.",
+        "Teste áudio, pratique apresentação de um minuto e partilhe uma janela com documento fictício.",
+        "Simule perda de ligação e envio de aviso pelo canal combinado.",
+        "Não grave a sessão.."
+      ],
+      "consolidation": "O entrevistador pede para partilhar o ecrã e há uma conversa privada aberta. O que faz?",
+      "expected_answer": "Fechar ou ocultar a conversa e notificações, selecionar apenas a janela relevante e confirmar o que está visível antes de apresentar. Não partilhar dados de terceiros.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: participar em reunião online. Preparar ligação e equipamento; comunicar e proteger a privacidade numa reunião. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma reunião online usa áudio, vídeo e partilha de ecrã. Teste ligação, microfone e permissões antes do horário. Auriculares reduzem eco; manter o microfone desligado enquanto escuta reduz ruído. Confirme o fuso horário com o organizador. Numa ligação limitada, desligar vídeo pode poupar dados, conforme as condições da reunião. Feche aplicações e notificações privadas antes de partilhar; prefira uma janela ao ecrã inteiro. Só grave com autorização e informação aos participantes. Não publique a ligação de acesso. Se a ligação cair, use o canal combinado para informar e pedir orientações."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Nádia, em Quelimane, faz uma entrevista de treino. Entra cinco minutos antes, testa áudio, mantém o CV aberto e partilha apenas a janela do portefólio, sem mostrar mensagens pessoais."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Com um colega autorizado, marque uma reunião de treino de dez minutos. Confirme hora e ligação por canal conhecido. Teste áudio, pratique apresentação de um minuto e partilhe uma janela com documento fictício. Simule perda de ligação e envio de aviso pelo canal combinado. Não grave a sessão. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "O entrevistador pede para partilhar o ecrã e há uma conversa privada aberta. O que faz? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-19",
+      "position": 19,
+      "module": "Comunicação e emprego",
+      "title": "Criar um perfil profissional",
+      "duration_minutes": 45,
+      "objectives": [
+        "Redigir uma apresentação coerente",
+        "controlar visibilidade e dados pessoais"
+      ],
+      "theory": "Um perfil profissional apresenta área de interesse, competências e evidências a uma rede de contactos. O título deve dizer o que faz ou procura com honestidade. O resumo pode explicar formação, projetos e tipo de oportunidade pretendida. Mantenha datas e funções coerentes com o CV. Publicar telefone, morada completa ou documentos aumenta exposição; use os controlos de visibilidade e um contacto adequado. Não aceite convites ou propostas apenas pela fotografia ou logótipo. Um perfil pode ser preparado num documento antes de criar conta em qualquer plataforma; a escolha de rede é opcional.",
+      "example": "Olga usa o título Assistente administrativa em formação | Documentos e folhas de cálculo. No resumo, explica o projeto de orçamento e a disponibilidade para oportunidades em Beira, sem declarar experiência inexistente.",
+      "guided_activity": [
+        "Escreva num documento um título até 120 caracteres e resumo de 100 a 150 palavras.",
+        "Inclua duas competências com evidências, formação e objetivo profissional.",
+        "Compare datas com o CV.",
+        "Liste o que seria público e o que manteria privado.",
+        "Peça feedback.",
+        "Criar ou publicar conta é opcional e fica a seu critério.."
+      ],
+      "consolidation": "Uma pessoa pede fotografia do BI para melhorar a visibilidade do perfil. Como responde?",
+      "expected_answer": "Não enviar o documento a esse contacto. Verificar a finalidade e a identidade por canal independente; usar apenas mecanismos legítimos da plataforma se houver uma necessidade real e compreendida.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: criar um perfil profissional. Redigir uma apresentação coerente; controlar visibilidade e dados pessoais. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um perfil profissional apresenta área de interesse, competências e evidências a uma rede de contactos. O título deve dizer o que faz ou procura com honestidade. O resumo pode explicar formação, projetos e tipo de oportunidade pretendida. Mantenha datas e funções coerentes com o CV. Publicar telefone, morada completa ou documentos aumenta exposição; use os controlos de visibilidade e um contacto adequado. Não aceite convites ou propostas apenas pela fotografia ou logótipo. Um perfil pode ser preparado num documento antes de criar conta em qualquer plataforma; a escolha de rede é opcional."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Olga usa o título Assistente administrativa em formação | Documentos e folhas de cálculo. No resumo, explica o projeto de orçamento e a disponibilidade para oportunidades em Beira, sem declarar experiência inexistente."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Escreva num documento um título até 120 caracteres e resumo de 100 a 150 palavras. Inclua duas competências com evidências, formação e objetivo profissional. Compare datas com o CV. Liste o que seria público e o que manteria privado. Peça feedback. Criar ou publicar conta é opcional e fica a seu critério. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Uma pessoa pede fotografia do BI para melhorar a visibilidade do perfil. Como responde? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-20",
+      "position": 20,
+      "module": "Comunicação e emprego",
+      "title": "Prática: enviar uma candidatura",
+      "duration_minutes": 60,
+      "objectives": [
+        "Reunir uma candidatura coerente",
+        "executar revisão final e registar o envio de treino"
+      ],
+      "theory": "A candidatura integra pesquisa, CV, mensagem e evidências. Uma lista de verificação reduz erros: legitimidade da vaga, requisitos, prazo, destinatário, assunto, anexos, tamanho, coerência e privacidade. Conservar a versão enviada permite preparar entrevistas e acompanhar o processo. Acompanhar não significa insistir diariamente; respeite as instruções do anúncio. Uma simulação deve continuar identificada como treino e usar destinatários autorizados. O sucesso pedagógico é preparar uma candidatura correta, não obter emprego, que depende de fatores externos.",
+      "example": "Paulo monta uma candidatura fictícia para uma cooperativa em Zambézia, confere a referência, abre o PDF e envia apenas para a caixa de exercício. Regista data, documentos e observações numa tabela.",
+      "guided_activity": [
+        "Escolha a vaga de treino e reúna ficha de verificação, CV editável, PDF e mensagem.",
+        "Use uma lista com os dez controlos da explicação.",
+        "Troque feedback com um colega.",
+        "Corrija os erros e envie para a caixa de teste autorizada ou entregue um rascunho exportado ao formador.",
+        "Registe o estado como simulação concluída.."
+      ],
+      "consolidation": "Entregue o pacote e explique o que faria se encontrasse um erro no telefone depois de enviar uma candidatura real.",
+      "expected_answer": "Avaliar gravidade e instruções da entidade; se necessário, enviar uma correção breve pelo canal permitido com o ficheiro revisto, evitando múltiplos envios confusos. Conservar registo da correção.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: prática: enviar uma candidatura. Reunir uma candidatura coerente; executar revisão final e registar o envio de treino. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "A candidatura integra pesquisa, CV, mensagem e evidências. Uma lista de verificação reduz erros: legitimidade da vaga, requisitos, prazo, destinatário, assunto, anexos, tamanho, coerência e privacidade. Conservar a versão enviada permite preparar entrevistas e acompanhar o processo. Acompanhar não significa insistir diariamente; respeite as instruções do anúncio. Uma simulação deve continuar identificada como treino e usar destinatários autorizados. O sucesso pedagógico é preparar uma candidatura correta, não obter emprego, que depende de fatores externos."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Paulo monta uma candidatura fictícia para uma cooperativa em Zambézia, confere a referência, abre o PDF e envia apenas para a caixa de exercício. Regista data, documentos e observações numa tabela."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Escolha a vaga de treino e reúna ficha de verificação, CV editável, PDF e mensagem. Use uma lista com os dez controlos da explicação. Troque feedback com um colega. Corrija os erros e envie para a caixa de teste autorizada ou entregue um rascunho exportado ao formador. Registe o estado como simulação concluída. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Entregue o pacote e explique o que faria se encontrasse um erro no telefone depois de enviar uma candidatura real. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-21",
+      "position": 21,
+      "module": "Segurança e produtividade",
+      "title": "Criar palavras-passe seguras",
+      "duration_minutes": 45,
+      "objectives": [
+        "Criar credenciais únicas",
+        "guardar e recuperar acessos com segurança"
+      ],
+      "theory": "Uma palavra-passe protege o acesso à conta. Prefira uma frase-passe longa, única e difícil de adivinhar; não use nomes, datas públicas ou exemplos desta aula como segredo real. Reutilizar credenciais permite que uma fuga num serviço afete outros. Um gestor de palavras-passe pode gerar e guardar segredos; proteja o acesso principal e prepare recuperação. Não partilhe segredos por mensagens e não os introduza em páginas recebidas por ligação suspeita. Num dispositivo partilhado, não grave credenciais no navegador e termine sessão. Se houver suspeita de exposição, altere o segredo pela página legítima, termine sessões desconhecidas e reveja os meios de recuperação.",
+      "example": "Quitéria usava a mesma palavra-passe no email e numa loja online. Depois de um aviso de fuga, muda ambas para segredos diferentes e revê as sessões do email pela aplicação oficial.",
+      "guided_activity": [
+        "Sem escrever nem mostrar palavras-passe reais, faça um inventário de três tipos de conta.",
+        "Assinale se têm segredo único, recuperação atualizada e dispositivo partilhado.",
+        "Pratique a geração de uma credencial fictícia num ambiente de treino.",
+        "Escreva um plano para substituir reutilizações e guardar meios de recuperação num local protegido.."
+      ],
+      "consolidation": "Um colega pede a sua palavra-passe para terminar uma tarefa. Qual alternativa propõe?",
+      "expected_answer": "Usar conta própria com permissão de colaboração ou acesso delegado autorizado. Não partilhar a palavra-passe. Confirmar que a alternativa respeita as regras da organização.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: criar palavras-passe seguras. Criar credenciais únicas; guardar e recuperar acessos com segurança. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma palavra-passe protege o acesso à conta. Prefira uma frase-passe longa, única e difícil de adivinhar; não use nomes, datas públicas ou exemplos desta aula como segredo real. Reutilizar credenciais permite que uma fuga num serviço afete outros. Um gestor de palavras-passe pode gerar e guardar segredos; proteja o acesso principal e prepare recuperação. Não partilhe segredos por mensagens e não os introduza em páginas recebidas por ligação suspeita. Num dispositivo partilhado, não grave credenciais no navegador e termine sessão. Se houver suspeita de exposição, altere o segredo pela página legítima, termine sessões desconhecidas e reveja os meios de recuperação."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Quitéria usava a mesma palavra-passe no email e numa loja online. Depois de um aviso de fuga, muda ambas para segredos diferentes e revê as sessões do email pela aplicação oficial."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Sem escrever nem mostrar palavras-passe reais, faça um inventário de três tipos de conta. Assinale se têm segredo único, recuperação atualizada e dispositivo partilhado. Pratique a geração de uma credencial fictícia num ambiente de treino. Escreva um plano para substituir reutilizações e guardar meios de recuperação num local protegido. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Um colega pede a sua palavra-passe para terminar uma tarefa. Qual alternativa propõe? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-22",
+      "position": 22,
+      "module": "Segurança e produtividade",
+      "title": "Reconhecer burlas digitais",
+      "duration_minutes": 45,
+      "objectives": [
+        "Identificar sinais de fraude",
+        "verificar pedidos e responder a uma exposição"
+      ],
+      "theory": "Burlas digitais tentam obter dinheiro, credenciais ou dados através de urgência, medo ou recompensa. Podem chegar por email, SMS, chamadas ou redes sociais e imitar uma entidade conhecida. O nome exibido do remetente pode ser falso. Não confie apenas em logótipo, boa escrita ou HTTPS. Confirme pedidos por contacto obtido independentemente. Nunca forneça PIN de carteira móvel ou código de autenticação a quem telefona ou escreve. Uma mensagem pode usar informação verdadeira para parecer credível. Se já partilhou um segredo ou fez uma transferência, interrompa o contacto, procure rapidamente o prestador pelo canal oficial e preserve evidências sem as divulgar publicamente.",
+      "example": "Rosa recebe um SMS a anunciar uma vaga e a pedir 500 MZN de inscrição urgente por carteira móvel. Em vez de pagar, procura o contacto oficial da entidade e confirma se o recrutamento existe.",
+      "guided_activity": [
+        "Analise três mensagens fictícias fornecidas pelo formador: vaga com pagamento urgente, aviso bancário com ligação e convite normal de reunião.",
+        "Para cada uma, registe sinais, informação em falta e canal de verificação.",
+        "Não abra ligações suspeitas.",
+        "Redija uma resposta segura e um plano de ação se um código já tiver sido divulgado.."
+      ],
+      "consolidation": "Recebe uma chamada que conhece o seu nome e pede o código recebido por SMS para cancelar uma cobrança. O que faz?",
+      "expected_answer": "Não revelar o código; terminar a chamada e contactar o serviço por canal oficial independente. Conhecer o nome não prova identidade. Se revelou o código, acionar recuperação/proteção imediatamente.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: reconhecer burlas digitais. Identificar sinais de fraude; verificar pedidos e responder a uma exposição. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Burlas digitais tentam obter dinheiro, credenciais ou dados através de urgência, medo ou recompensa. Podem chegar por email, SMS, chamadas ou redes sociais e imitar uma entidade conhecida. O nome exibido do remetente pode ser falso. Não confie apenas em logótipo, boa escrita ou HTTPS. Confirme pedidos por contacto obtido independentemente. Nunca forneça PIN de carteira móvel ou código de autenticação a quem telefona ou escreve. Uma mensagem pode usar informação verdadeira para parecer credível. Se já partilhou um segredo ou fez uma transferência, interrompa o contacto, procure rapidamente o prestador pelo canal oficial e preserve evidências sem as divulgar publicamente."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Rosa recebe um SMS a anunciar uma vaga e a pedir 500 MZN de inscrição urgente por carteira móvel. Em vez de pagar, procura o contacto oficial da entidade e confirma se o recrutamento existe."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Analise três mensagens fictícias fornecidas pelo formador: vaga com pagamento urgente, aviso bancário com ligação e convite normal de reunião. Para cada uma, registe sinais, informação em falta e canal de verificação. Não abra ligações suspeitas. Redija uma resposta segura e um plano de ação se um código já tiver sido divulgado. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Recebe uma chamada que conhece o seu nome e pede o código recebido por SMS para cancelar uma cobrança. O que faz? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-23",
+      "position": 23,
+      "module": "Segurança e produtividade",
+      "title": "Ativar autenticação adicional",
+      "duration_minutes": 45,
+      "objectives": [
+        "Explicar o segundo fator",
+        "preparar ativação e recuperação sem expor códigos"
+      ],
+      "theory": "A autenticação multifator combina fatores, como palavra-passe e posse de dispositivo. Um código recebido por SMS ou gerado por aplicação acrescenta proteção, mas pode ser roubado por engenharia social. Chaves de segurança e passkeys podem oferecer resistência a certas formas de phishing quando suportadas. As opções dependem do serviço e do dispositivo. Antes de ativar, confirme acesso ao email/telefone de recuperação, leia as instruções oficiais e guarde códigos de reserva em local protegido separado. Nunca envie esses códigos ao formador. Recuse pedidos de aprovação que não iniciou. Ao perder o dispositivo, use o processo oficial de recuperação; não tente contornar a segurança.",
+      "example": "Samuel ativa um segundo fator no email pelo menu de segurança da aplicação legítima. Guarda códigos de recuperação de forma privada e testa um novo início de sessão antes de encerrar a sessão antiga.",
+      "guided_activity": [
+        "Num ambiente de demonstração, localize definições de segurança e compare métodos disponíveis.",
+        "Desenhe o fluxo de ativação, teste e recuperação.",
+        "Se decidir aplicar numa conta própria, faça-o em privado e com os meios de recuperação preparados; entregue apenas uma declaração de teste sem códigos, QR ou capturas com segredos.."
+      ],
+      "consolidation": "Surge no telemóvel um pedido de aprovação de entrada que não iniciou. Deve aprovar para o fazer desaparecer?",
+      "expected_answer": "Não. Recusar, verificar sessões e atividade pelo serviço legítimo e alterar credenciais se houver suspeita. Não aprovar por pressão de chamadas ou mensagens.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: ativar autenticação adicional. Explicar o segundo fator; preparar ativação e recuperação sem expor códigos. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "A autenticação multifator combina fatores, como palavra-passe e posse de dispositivo. Um código recebido por SMS ou gerado por aplicação acrescenta proteção, mas pode ser roubado por engenharia social. Chaves de segurança e passkeys podem oferecer resistência a certas formas de phishing quando suportadas. As opções dependem do serviço e do dispositivo. Antes de ativar, confirme acesso ao email/telefone de recuperação, leia as instruções oficiais e guarde códigos de reserva em local protegido separado. Nunca envie esses códigos ao formador. Recuse pedidos de aprovação que não iniciou. Ao perder o dispositivo, use o processo oficial de recuperação; não tente contornar a segurança."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Samuel ativa um segundo fator no email pelo menu de segurança da aplicação legítima. Guarda códigos de recuperação de forma privada e testa um novo início de sessão antes de encerrar a sessão antiga."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Num ambiente de demonstração, localize definições de segurança e compare métodos disponíveis. Desenhe o fluxo de ativação, teste e recuperação. Se decidir aplicar numa conta própria, faça-o em privado e com os meios de recuperação preparados; entregue apenas uma declaração de teste sem códigos, QR ou capturas com segredos. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Surge no telemóvel um pedido de aprovação de entrada que não iniciou. Deve aprovar para o fazer desaparecer? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-24",
+      "position": 24,
+      "module": "Segurança e produtividade",
+      "title": "Planear tarefas e prazos",
+      "duration_minutes": 45,
+      "objectives": [
+        "Transformar um objetivo em tarefas",
+        "priorizar e acompanhar prazos realistas"
+      ],
+      "theory": "Uma tarefa executável tem resultado, responsável e prazo. Divida objetivos grandes em passos que possa concluir numa sessão. Distinga importância de urgência: um prazo próximo pode exigir ação, mas tarefas importantes precisam de tempo reservado antes da urgência. Use calendário para compromissos com hora e lista para ações. Estime duração, dependências e margem para falhas de energia ou internet. Lembretes ajudam, mas não substituem a revisão. Em equipas, confirme responsabilidades em vez de as presumir. Evite publicar detalhes privados num calendário partilhado.",
+      "example": "Teresa precisa de candidatar-se até sexta. Reserva segunda para verificar a vaga, terça para CV, quarta para revisão e quinta para envio, mantendo margem para indisponibilidade da ligação.",
+      "guided_activity": [
+        "Defina um objetivo de aprendizagem para a semana.",
+        "Divida-o em cinco tarefas com duração, prazo e evidência de conclusão.",
+        "Indique dependências.",
+        "Coloque dois blocos de estudo num calendário ou agenda em papel.",
+        "Simule um dia sem internet e ajuste o plano, preservando a tarefa com prazo mais próximo.."
+      ],
+      "consolidation": "Tem duas horas: candidatura encerra amanhã e revisão do perfil não tem prazo. Como distribui o tempo e porquê?",
+      "expected_answer": "Priorizar verificação e conclusão da candidatura, reservando revisão final e margem; agendar a revisão do perfil para outro bloco. Explicar a decisão com prazo e impacto, sem garantir uma duração universal.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: planear tarefas e prazos. Transformar um objetivo em tarefas; priorizar e acompanhar prazos realistas. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Uma tarefa executável tem resultado, responsável e prazo. Divida objetivos grandes em passos que possa concluir numa sessão. Distinga importância de urgência: um prazo próximo pode exigir ação, mas tarefas importantes precisam de tempo reservado antes da urgência. Use calendário para compromissos com hora e lista para ações. Estime duração, dependências e margem para falhas de energia ou internet. Lembretes ajudam, mas não substituem a revisão. Em equipas, confirme responsabilidades em vez de as presumir. Evite publicar detalhes privados num calendário partilhado."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Teresa precisa de candidatar-se até sexta. Reserva segunda para verificar a vaga, terça para CV, quarta para revisão e quinta para envio, mantendo margem para indisponibilidade da ligação."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Defina um objetivo de aprendizagem para a semana. Divida-o em cinco tarefas com duração, prazo e evidência de conclusão. Indique dependências. Coloque dois blocos de estudo num calendário ou agenda em papel. Simule um dia sem internet e ajuste o plano, preservando a tarefa com prazo mais próximo. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Tem duas horas: candidatura encerra amanhã e revisão do perfil não tem prazo. Como distribui o tempo e porquê? Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    },
+    {
+      "id": "CDE-25",
+      "position": 25,
+      "module": "Segurança e produtividade",
+      "title": "Prática: plano de desenvolvimento",
+      "duration_minutes": 60,
+      "objectives": [
+        "Autoavaliar competências com evidências",
+        "construir um plano de melhoria de 30 dias"
+      ],
+      "theory": "Um plano de desenvolvimento liga uma lacuna a ações observáveis. Autoavaliar não é apenas dizer sou bom: cite ficheiros, tarefas e feedback. Use três níveis: faço com ajuda, faço sozinho e consigo explicar. Escolha duas prioridades relevantes para o objetivo profissional. Para cada uma, defina ação, frequência, recursos, evidência e data de revisão. Aprender exige prática e correção, não só assistir a vídeos. Considere custo de dados, disponibilidade de dispositivo e tempo familiar. O certificado deste curso documenta conclusão segundo as regras da plataforma; não garante emprego nem substitui qualificação formal.",
+      "example": "Umar quer melhorar folhas de cálculo e candidaturas. Planeia duas sessões de 30 minutos por semana, entrega um orçamento verificado em quinze dias e revê uma candidatura de treino no fim do mês.",
+      "guided_activity": [
+        "Reúna índice do portefólio, CV, orçamento e candidatura de treino.",
+        "Autoavalie cinco competências com evidências.",
+        "Escolha duas prioridades e escreva um plano de 30 dias com ações, frequência, recursos e critérios de sucesso.",
+        "Defina uma revisão ao dia 15 e outra ao dia 30.",
+        "Apresente o plano em três minutos e registe uma melhoria sugerida pelo formador.."
+      ],
+      "consolidation": "Entregue o plano e explique como distinguir assistir a uma aula de demonstrar competência. Inclua uma alternativa para uma semana sem internet.",
+      "expected_answer": "Demonstrar exige executar uma tarefa e verificar o resultado, por exemplo orçamento com fórmulas corretas. Alternativa: praticar offline com ficheiros locais ou agenda em papel e sincronizar quando houver ligação.",
+      "evidence": "Entregar o resultado da atividade orientada e uma resposta justificada ao exercício; usar dados fictícios. O formador verifica o ficheiro ou uma demonstração, sem recolher segredos.",
+      "rubric": [
+        {
+          "criterion": "Execução dos passos e entrega verificável",
+          "points": 4
+        },
+        {
+          "criterion": "Correção técnica e justificação do exercício",
+          "points": 3
+        },
+        {
+          "criterion": "Clareza e organização do resultado",
+          "points": 2
+        },
+        {
+          "criterion": "Privacidade e uso de dados fictícios",
+          "points": 1
+        }
+      ],
+      "success_criteria": "Conseguir executar os objetivos com o resultado descrito na atividade e justificar a resposta segundo o guia de correção. Mínimo proposto: 7/10; corrigir erros e reapresentar. Não recolher palavras-passe, PIN ou códigos.",
+      "video": {
+        "status": "roteiro_produzido_gravacao_pendente",
+        "target_minutes": 7,
+        "scenes": [
+          {
+            "time": "00:00–00:40",
+            "visual": "Título e objetivos em texto grande; legendas em português.",
+            "narration": "Nesta aula vamos trabalhar: prática: plano de desenvolvimento. Autoavaliar competências com evidências; construir um plano de melhoria de 30 dias. Use dados fictícios e pause para praticar."
+          },
+          {
+            "time": "00:40–02:20",
+            "visual": "Apresentador e palavras-chave; mostrar apenas dados fictícios.",
+            "narration": "Um plano de desenvolvimento liga uma lacuna a ações observáveis. Autoavaliar não é apenas dizer sou bom: cite ficheiros, tarefas e feedback. Use três níveis: faço com ajuda, faço sozinho e consigo explicar. Escolha duas prioridades relevantes para o objetivo profissional. Para cada uma, defina ação, frequência, recursos, evidência e data de revisão. Aprender exige prática e correção, não só assistir a vídeos. Considere custo de dados, disponibilidade de dispositivo e tempo familiar. O certificado deste curso documenta conclusão segundo as regras da plataforma; não garante emprego nem substitui qualificação formal."
+          },
+          {
+            "time": "02:20–03:10",
+            "visual": "Mostrar o caso local em ecrã, com valores e nomes fictícios.",
+            "narration": "Umar quer melhorar folhas de cálculo e candidaturas. Planeia duas sessões de 30 minutos por semana, entrega um orçamento verificado em quinze dias e revê uma candidatura de treino no fim do mês."
+          },
+          {
+            "time": "03:10–05:40",
+            "visual": "Gravar o ecrã a executar cada passo; ampliar os controlos, ocultar contas e notificações.",
+            "narration": "Reúna índice do portefólio, CV, orçamento e candidatura de treino. Autoavalie cinco competências com evidências. Escolha duas prioridades e escreva um plano de 30 dias com ações, frequência, recursos e critérios de sucesso. Defina uma revisão ao dia 15 e outra ao dia 30. Apresente o plano em três minutos e registe uma melhoria sugerida pelo formador. Pause após cada passo e confirme o resultado antes de continuar."
+          },
+          {
+            "time": "05:40–06:25",
+            "visual": "Cartão com o exercício; indicar pausa para resposta.",
+            "narration": "Entregue o plano e explique como distinguir assistir a uma aula de demonstrar competência. Inclua uma alternativa para uma semana sem internet. Pause o vídeo e escreva a sua resposta."
+          },
+          {
+            "time": "06:25–07:00",
+            "visual": "Síntese e convite à prática; guia detalhado de correção fica com o formador.",
+            "narration": "Confira se consegue realizar os objetivos sem ajuda. Entregue a atividade e explique uma dificuldade que resolveu. Reveja a leitura se precisar e peça feedback ao formador."
+          }
+        ]
+      },
+      "assets": {
+        "text": "produzido_pendente_revisao",
+        "video": "nao_gravado",
+        "pdf": "nao_produzido",
+        "video_url": "",
+        "material_url": ""
+      }
+    }
+  ]
+}
