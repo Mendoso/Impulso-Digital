@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 import click
+from content_import import register_commands, review_digest
 from flask import Flask, abort, flash, g, jsonify, redirect, render_template, request, session, url_for
 from werkzeug.security import check_password_hash, generate_password_hash
 
@@ -122,6 +123,9 @@ def create_app(config=None):
         return course
 
     def require_enrollment(cid):
+        pending = query("SELECT 1 FROM content_imports WHERE course_id=? AND review_status='pending'", (cid,), True)
+        if pending:
+            abort(403, 'Conteúdo sujeito a revisão pedagógica.')
         if not query('SELECT 1 FROM enrollments WHERE user_id=? AND course_id=?', (g.user['id'], cid), True):
             abort(403, 'É necessária uma matrícula confirmada para aceder ao curso.')
 
@@ -352,11 +356,17 @@ def create_app(config=None):
                         db().execute('INSERT INTO questions(course_id,prompt,options,answer) VALUES(?,?,?,?)',(cid,prompt,json.dumps(options),answer))
                     elif action=='publish':
                         cid=int(request.form['course_id']); course=course_or_404(cid)
+                        imported=query('SELECT * FROM content_imports WHERE course_id=?',(cid,),True)
+                        if not course['published'] and imported and (imported['review_status']!='approved' or imported['reviewed_digest']!=review_digest(db(),cid)):
+                            raise ValueError('Revisão pedagógica pendente ou desatualizada')
                         if not query('SELECT 1 FROM lessons WHERE course_id=?',(cid,),True) or not query('SELECT 1 FROM questions WHERE course_id=?',(cid,),True):
                             raise ValueError()
                         db().execute('UPDATE courses SET published=? WHERE id=?',(0 if course['published'] else 1,cid))
                     else:
                         abort(400)
+                    if action in ('lesson','question'):
+                        db().execute("UPDATE content_imports SET review_status='pending',reviewer=NULL,reviewed_digest=NULL,reviewed_at=NULL WHERE course_id=?",(cid,))
+                        db().execute('UPDATE courses SET published=0 WHERE id=? AND EXISTS (SELECT 1 FROM content_imports WHERE course_id=?)',(cid,cid))
                 flash('Conteúdo guardado.', 'success')
             except (ValueError, KeyError):
                 flash('Verifique os campos. Publicar exige aulas e avaliação. Vídeos: URL incorporável YouTube/Vimeo; materiais: HTTPS.', 'error')
@@ -378,6 +388,8 @@ def create_app(config=None):
                     raise ValueError()
                 with db():
                     db().execute('UPDATE lessons SET module=?,title=?,content=?,video_url=?,material_url=?,position=? WHERE id=?',(request.form.get('module','').strip(),title,content,video,material,position,lid))
+                    db().execute("UPDATE content_imports SET review_status='pending',reviewer=NULL,reviewed_digest=NULL,reviewed_at=NULL WHERE course_id=?",(lesson['course_id'],))
+                    db().execute('UPDATE courses SET published=0 WHERE id=? AND EXISTS (SELECT 1 FROM content_imports WHERE course_id=?)',(lesson['course_id'],lesson['course_id']))
                 flash('Aula atualizada.', 'success')
                 return redirect(url_for('admin'))
             except ValueError:
@@ -441,6 +453,7 @@ def create_app(config=None):
         except sqlite3.IntegrityError:
             raise click.ClickException('Email já registado. Nenhuma conta foi alterada.')
         click.echo('Administrador criado.')
+    register_commands(app, db)
     return app
 
 app = create_app()
